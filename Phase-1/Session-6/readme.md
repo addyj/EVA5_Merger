@@ -40,7 +40,7 @@ This experiment involved testing the model with both L1 and L2 regularization, a
 - scheduler: StepLP with `step size`=8 and `gamma`=0.1
 - `l1 lambda`=5e-4
 
-Performance falls drastically when compared to experiment 4. This experiment performs just a bit better than experiment 3. Looks like choosing a good hyperparameter value for the L1 regularization weight is important. Also, it looks like too many cooks spoil the broth.
+Performance falls drastically when compared to experiment 4. The difference between the train and test accuracy is around ~0.64. This experiment performs just a bit better than experiment 3. Looks like choosing a good hyperparameter value for the L1 regularization weight is important. Also, it looks like too many cooks spoil the broth.
 
 ## Plots and Images
 Here's the plot for the loss and accuracies for train and test phases:
