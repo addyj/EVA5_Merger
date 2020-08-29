@@ -8,7 +8,7 @@ This experiment involved testing the model with L1 loss and good old batch norma
 - scheduler: StepLR with `step size`=8 and `gamma`=0.1
 - `l1 lambda`=5e-4
 
-The test and train loss quickly reduces when L1 regularization is applied. moreover, the train and test accuracy of the model quickly rises when compared to L2 regularization
+The test and train loss quickly reduces when L1 regularization is applied. moreover, the train and test accuracy of the model quickly rises when compared to L2 regularization. The difference between the train accuracy and test accuracy is around ~0.25
 
 ## Experiment 2
 This experiment involved testing the model with L2 regularization and batch normalization
